@@ -1,0 +1,376 @@
+.detail {
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+/*** 顶部导航 ***/
+.detail > .top-nav {
+
+}
+
+/*** 内容 ***/
+.detail > .con {
+    margin-bottom: 1.2rem;
+}
+
+.detail > .con > * {
+    background-color: #fff;
+    margin-bottom: 0.24rem;
+}
+
+.detail > .con > *:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+.detail > .con > .top {
+    padding-bottom: 0.24rem;
+}
+
+.detail > .con > .top > * {
+    padding: 0 0.24rem;
+    margin-bottom: 0.24rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.detail > .con > .top > *:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+/*内容：控制栏*/
+.detail > .con > .top .control {
+
+}
+
+.detail > .con > .top .control > * {
+    height: 0.8rem;
+    line-height: 0.8rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.detail > .con > .top .control .image {
+    width: 0.4rem;
+    height: 0.4rem;
+}
+
+.detail > .con > .top .control .left {
+    float: left;
+}
+
+.detail > .con > .top .control .right {
+    float: right;
+}
+
+/*内容：用户*/
+.detail > .con > .top .user {
+
+}
+
+.detail > .con > .top .user > * {
+    height: 1rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.detail > .con > .top .user > .left {
+    float: left;
+}
+
+.detail > .con > .top .user > .left > * {
+    float: left;
+    height: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.detail > .con > .top .user > .left .avatar {
+    width: 0.8rem;
+    margin-right: 0.24rem;
+    position: relative;
+}
+
+.detail > .con > .top .user > .left .avatar .image-shell {
+    width: 100%;
+    height: 0.8rem;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate3d(0% , -50% , 0);
+}
+
+.detail > .con > .top .user > .left .avatar .image-shell .image {
+    width: 100%;
+    min-height: 100%;
+    vertical-align: top;
+}
+
+.detail > .con > .top .user > .left .desc {
+    position: relative;
+    white-space: nowrap;
+}
+
+.detail > .con > .top .user > .left .desc > .in {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate3d(0% , -50% , 0);
+}
+
+.detail > .con > .top .user > .left .desc > .in .name {
+    font-size: 0.28rem;
+    color: #555;
+}
+
+.detail > .con > .top .user > .left .desc > .in ._desc {
+    color: #999;
+    font-size: 0.24rem;
+}
+
+.detail > .con > .top .user > .right {
+    float: right;
+    line-height: 1rem;
+}
+
+/***文档***/
+.detail > .con > .top > .text {
+
+}
+
+.detail > .con > .top > .text > * {
+    margin-bottom: 0.12rem;
+}
+
+.detail > .con > .top > .text > *:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+.detail > .con > .top > .text .title {
+    color: #555;
+    font-size: 0.28rem;
+}
+
+.detail > .con > .top > .text .desc {
+    color: #999;
+    font-size: 0.24rem;
+}
+
+.detail > .con > .top > .images {
+    padding: 0;
+}
+
+.detail > .con > .top > .images .line {
+    margin-bottom: 0.06rem;
+}
+
+.detail > .con > .top > .images .line:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+.detail > .con > .top > .images .line .image {
+    width: 100%;
+}
+
+.detail > .con > .btm {
+    padding: 0.24rem 0;
+}
+
+.detail > .con > .btm > .title {
+    padding: 0 0.24rem 0.24rem;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 0.24rem;
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.detail > .con > .btm .comments {
+
+}
+
+.detail > .con > .btm .comments .line {
+    margin-bottom: 0.4rem;
+}
+
+.detail > .con > .btm .comments .line:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+/*** 评论-固定底部 ***/
+.detail .fix-btm {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 20;
+    width: 100%;
+    padding: 0.16rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    /*box-shadow: 0 0 0.24rem 0 #ccc*/
+    border-top: 1px solid #efefef;
+}
+
+.detail .fix-btm > .in {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.detail .fix-btm > .in > * {
+    height: 0.88rem;
+}
+
+.detail .fix-btm > .in .left {
+    margin-right:2rem;
+    padding-right: 0.24rem;
+}
+
+.detail .fix-btm > .in .left .input {
+    width: 100%;
+    height: 100%;
+    line-height: 0.88rem;
+    font-size: 0.26rem;
+    padding-left: 0.24rem;
+    color: rgb(130 , 130 , 130);
+    background-color: #f3f3f3;
+}
+
+.detail .fix-btm > .in .right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.detail .fix-btm > .in .functions {
+
+}
+
+.detail .fix-btm > .in .functions > * {
+    float: left;
+    height: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.detail .fix-btm > .in .functions .function {
+    width: 1rem;
+}
+
+.detail .fix-btm > .in .functions .function > * {
+    text-align: center;
+}
+
+.detail .fix-btm > .in .functions .function .top {
+
+}
+
+.detail .fix-btm > .in .functions .function .top .image {
+    width: 0.48rem;
+    height: 0.48rem;
+}
+
+.detail .fix-btm > .in .functions .function .btm {
+    font-size: 0.24rem;
+}
+
+/*** 发布评论 ***/
+.detail .send-comment {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.detail .send-comment .back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.3;
+    z-index: 11;
+}
+
+.detail .send-comment .main {
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 12;
+    padding: 0.16rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.detail .send-comment .main > * {
+    margin-bottom: 0.12rem;
+}
+
+.detail .send-comment .main > *:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+.detail .send-comment .main .title {
+    font-size: 0.24rem;
+    color: #999;
+}
+
+.detail .send-comment .main .title > * {
+    height: 0.4rem;
+    line-height: 0.4rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.detail .send-comment .main .title .left {
+    float: left;
+}
+
+.detail .send-comment .main .title .right {
+    float: right;
+}
+
+.detail .send-comment .main .input {
+    height: 1.8rem;
+}
+
+.detail .send-comment .main .input .form-textarea {
+    width: 100%;
+    height: 100%;
+    font-size: 0.26rem;
+    border-radius: 0.06rem;
+    padding: 0.2rem 0.1rem;
+    color: rgb(130 , 130 , 130);
+    background-color: #f3f3f3;
+    border: none;
+}
+
+.detail .send-comment .main .btns {
+    
+}
+
+.detail .send-comment .main .btns > * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.detail .send-comment .main .btns .left {
+    float: left;
+}
+
+.detail .send-comment .main .btns .right {
+    float: right;
+}
+
+/* 评论详情 */
+.comment-detail {
+
+}

@@ -1,0 +1,11 @@
+/*
+ * ****************
+ * 按钮
+ * ****************
+ */
+.btn-1 {
+    border: 1px solid #e40101;
+    padding: 0.06rem 0.2rem;
+    font-size: 0.24rem;
+    color: #e40101;
+}

@@ -1,0 +1,20 @@
+/**
+ * **********************
+ * iview 样式全局消除影响
+ * **********************
+ */
+.iview {
+
+}
+
+.iview input[type=text] {
+    border: none;
+}
+
+.iview input[type=text]:focus {
+    box-shadow: none;
+}
+
+.iview .normal-width {
+    width: 300px;
+}

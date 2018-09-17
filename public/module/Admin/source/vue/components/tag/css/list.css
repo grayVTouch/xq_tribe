@@ -1,0 +1,86 @@
+.component-title {
+    border-bottom:none;
+}
+
+.res .component-title {
+    bottom:-1px;
+}
+
+.c-cons > * {
+    margin-bottom:12px;
+}
+
+.c-cons > *:nth-last-of-type(1) {
+    margin-bottom:0px;
+}
+
+/**
+ * **************
+ * 搜索条件
+ * **************
+ */
+.search {
+
+}
+
+.search > * {
+    margin-bottom:12px;
+}
+
+.search > *:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+.search > .form > form > * {
+    margin-bottom:12px;
+}
+
+.search > .form > form > *:nth-last-of-type(1) {
+    margin-bottom:0;
+}
+
+/**
+ * *****************
+ * 操作
+ * *****************
+ */
+.operation {
+
+}
+
+.operation .functions {
+    padding:5px;
+    border:1px solid #ccc;
+}
+
+.operation .functions:after {
+    display:block;
+    content:'';
+    clear:both;
+}
+
+.operation .functions .left {
+    float:left;
+}
+
+.operation .functions .right {
+    float:right;
+}
+
+/**
+ * *************************
+ * 分页
+ * *************************
+ */
+.page {
+    position:relative;
+    left:0px;
+    top:0px;
+    height:50px;
+    line-height:50px;
+    text-align:right;
+}
+
+.page .in {
+    display:inline-block;
+}

@@ -1,0 +1,1805 @@
+2018-08-05T09:53:01.694038Z 0 [System] [MY-010116] [Server] /usr/local/mysql/bin/mysqld (mysqld 8.0.11) starting as process 2820
+2018-08-05T09:53:03.352737Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2018-08-05T09:53:03.352931Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2018-08-05T09:53:03.385805Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-08-05T09:53:03.439681Z 0 [System] [MY-010931] [Server] /usr/local/mysql/bin/mysqld: ready for connections. Version: '8.0.11'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2870:C 05 Aug 17:53:27.126 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2870:C 05 Aug 17:53:27.126 # Redis version=4.0.9, bits=64, commit=00000000, modified=0, pid=2870, just started
+2870:C 05 Aug 17:53:27.126 # Configuration loaded
+2870:M 05 Aug 17:53:27.127 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 2870
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2870:M 05 Aug 17:53:27.132 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2870:M 05 Aug 17:53:27.132 # Server initialized
+2870:M 05 Aug 17:53:27.132 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2870:M 05 Aug 17:53:27.132 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2870:M 05 Aug 17:53:27.132 * Ready to accept connections
+2870:M 05 Aug 17:59:45.937 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 17:59:45.937 * Background saving started by pid 2890
+2890:C 05 Aug 17:59:45.949 * DB saved on disk
+2890:C 05 Aug 17:59:45.949 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 17:59:46.038 * Background saving terminated with success
+2870:M 05 Aug 18:07:26.928 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 18:07:26.928 * Background saving started by pid 2898
+2898:C 05 Aug 18:07:26.929 * DB saved on disk
+2898:C 05 Aug 18:07:26.929 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 18:07:27.029 * Background saving terminated with success
+2870:M 05 Aug 18:13:52.904 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 18:13:52.904 * Background saving started by pid 2901
+2901:C 05 Aug 18:13:52.905 * DB saved on disk
+2901:C 05 Aug 18:13:52.906 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 18:13:53.005 * Background saving terminated with success
+2870:M 05 Aug 19:09:09.958 * 1 changes in 900 seconds. Saving...
+2870:M 05 Aug 19:09:09.958 * Background saving started by pid 2996
+2996:C 05 Aug 19:09:09.959 * DB saved on disk
+2996:C 05 Aug 19:09:09.960 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 19:09:10.059 * Background saving terminated with success
+2870:M 05 Aug 19:14:11.095 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 19:14:11.095 * Background saving started by pid 2999
+2999:C 05 Aug 19:14:11.096 * DB saved on disk
+2999:C 05 Aug 19:14:11.097 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 19:14:11.196 * Background saving terminated with success
+2870:M 05 Aug 19:19:12.002 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 19:19:12.002 * Background saving started by pid 3006
+3006:C 05 Aug 19:19:12.003 * DB saved on disk
+3006:C 05 Aug 19:19:12.003 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 19:19:12.102 * Background saving terminated with success
+2870:M 05 Aug 19:25:20.120 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 19:25:20.121 * Background saving started by pid 3021
+3021:C 05 Aug 19:25:20.122 * DB saved on disk
+3021:C 05 Aug 19:25:20.123 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 19:25:20.222 * Background saving terminated with success
+2870:M 05 Aug 19:40:21.093 * 1 changes in 900 seconds. Saving...
+2870:M 05 Aug 19:40:21.093 * Background saving started by pid 3048
+3048:C 05 Aug 19:40:21.094 * DB saved on disk
+3048:C 05 Aug 19:40:21.094 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 19:40:21.194 * Background saving terminated with success
+2870:M 05 Aug 19:55:22.047 * 1 changes in 900 seconds. Saving...
+2870:M 05 Aug 19:55:22.048 * Background saving started by pid 3173
+3173:C 05 Aug 19:55:22.052 * DB saved on disk
+3173:C 05 Aug 19:55:22.054 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 19:55:22.148 * Background saving terminated with success
+2870:M 05 Aug 20:02:48.163 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 20:02:48.163 * Background saving started by pid 3189
+3189:C 05 Aug 20:02:48.164 * DB saved on disk
+3189:C 05 Aug 20:02:48.164 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 20:02:48.264 * Background saving terminated with success
+2870:M 05 Aug 20:17:49.100 * 1 changes in 900 seconds. Saving...
+2870:M 05 Aug 20:17:49.100 * Background saving started by pid 3298
+3298:C 05 Aug 20:17:49.101 * DB saved on disk
+3298:C 05 Aug 20:17:49.101 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 20:17:49.201 * Background saving terminated with success
+2870:M 05 Aug 20:32:50.027 * 1 changes in 900 seconds. Saving...
+2870:M 05 Aug 20:32:50.028 * Background saving started by pid 3322
+3322:C 05 Aug 20:32:50.029 * DB saved on disk
+3322:C 05 Aug 20:32:50.029 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 20:32:50.129 * Background saving terminated with success
+2870:M 05 Aug 20:44:04.165 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 20:44:04.165 * Background saving started by pid 3343
+3343:C 05 Aug 20:44:04.167 * DB saved on disk
+3343:C 05 Aug 20:44:04.167 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 20:44:04.266 * Background saving terminated with success
+2870:M 05 Aug 20:49:05.079 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 20:49:05.079 * Background saving started by pid 3347
+3347:C 05 Aug 20:49:05.081 * DB saved on disk
+3347:C 05 Aug 20:49:05.081 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 20:49:05.181 * Background saving terminated with success
+2870:M 05 Aug 20:54:06.090 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 20:54:06.091 * Background saving started by pid 3349
+3349:C 05 Aug 20:54:06.091 * DB saved on disk
+3349:C 05 Aug 20:54:06.092 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 20:54:06.193 * Background saving terminated with success
+2870:M 05 Aug 20:59:07.081 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 20:59:07.081 * Background saving started by pid 3363
+3363:C 05 Aug 20:59:07.083 * DB saved on disk
+3363:C 05 Aug 20:59:07.083 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 20:59:07.182 * Background saving terminated with success
+2870:M 05 Aug 21:04:08.092 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 21:04:08.092 * Background saving started by pid 3368
+3368:C 05 Aug 21:04:08.100 * DB saved on disk
+3368:C 05 Aug 21:04:08.102 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 21:04:08.194 * Background saving terminated with success
+2870:M 05 Aug 21:09:09.046 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 21:09:09.047 * Background saving started by pid 3381
+3381:C 05 Aug 21:09:09.048 * DB saved on disk
+3381:C 05 Aug 21:09:09.048 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 21:09:09.147 * Background saving terminated with success
+2870:M 05 Aug 21:14:10.048 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 21:14:10.049 * Background saving started by pid 3383
+3383:C 05 Aug 21:14:10.054 * DB saved on disk
+3383:C 05 Aug 21:14:10.056 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 21:14:10.151 * Background saving terminated with success
+2870:M 05 Aug 21:19:11.074 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 21:19:11.074 * Background saving started by pid 3389
+3389:C 05 Aug 21:19:11.076 * DB saved on disk
+3389:C 05 Aug 21:19:11.076 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 21:19:11.175 * Background saving terminated with success
+2870:M 05 Aug 21:24:12.067 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 21:24:12.068 * Background saving started by pid 3403
+3403:C 05 Aug 21:24:12.089 * DB saved on disk
+3403:C 05 Aug 21:24:12.089 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 21:24:12.168 * Background saving terminated with success
+2870:M 05 Aug 21:29:13.037 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 21:29:13.037 * Background saving started by pid 3406
+3406:C 05 Aug 21:29:13.040 * DB saved on disk
+3406:C 05 Aug 21:29:13.040 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 21:29:13.139 * Background saving terminated with success
+2870:M 05 Aug 21:34:14.041 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 21:34:14.041 * Background saving started by pid 3408
+3408:C 05 Aug 21:34:14.042 * DB saved on disk
+3408:C 05 Aug 21:34:14.043 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 21:34:14.142 * Background saving terminated with success
+2870:M 05 Aug 21:42:38.108 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 21:42:38.108 * Background saving started by pid 3424
+3424:C 05 Aug 21:42:38.110 * DB saved on disk
+3424:C 05 Aug 21:42:38.110 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 21:42:38.209 * Background saving terminated with success
+2870:M 05 Aug 21:50:52.580 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 21:50:52.580 * Background saving started by pid 3450
+3450:C 05 Aug 21:50:52.582 * DB saved on disk
+3450:C 05 Aug 21:50:52.582 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 21:50:52.681 * Background saving terminated with success
+2870:M 05 Aug 21:55:53.067 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 21:55:53.067 * Background saving started by pid 3454
+3454:C 05 Aug 21:55:53.069 * DB saved on disk
+3454:C 05 Aug 21:55:53.069 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 21:55:53.168 * Background saving terminated with success
+2870:M 05 Aug 22:00:54.092 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 22:00:54.092 * Background saving started by pid 3463
+3463:C 05 Aug 22:00:54.093 * DB saved on disk
+3463:C 05 Aug 22:00:54.093 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 22:00:54.193 * Background saving terminated with success
+2870:M 05 Aug 22:05:55.002 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 22:05:55.002 * Background saving started by pid 3485
+3485:C 05 Aug 22:05:55.004 * DB saved on disk
+3485:C 05 Aug 22:05:55.004 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 22:05:55.103 * Background saving terminated with success
+2870:M 05 Aug 22:17:53.113 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 22:17:53.114 * Background saving started by pid 3503
+3503:C 05 Aug 22:17:53.115 * DB saved on disk
+3503:C 05 Aug 22:17:53.115 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 22:17:53.214 * Background saving terminated with success
+2870:M 05 Aug 22:22:54.017 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 22:22:54.018 * Background saving started by pid 3506
+3506:C 05 Aug 22:22:54.019 * DB saved on disk
+3506:C 05 Aug 22:22:54.019 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 22:22:54.118 * Background saving terminated with success
+2870:M 05 Aug 22:27:55.066 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 22:27:55.066 * Background saving started by pid 3692
+3692:C 05 Aug 22:27:55.067 * DB saved on disk
+3692:C 05 Aug 22:27:55.067 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 22:27:55.166 * Background saving terminated with success
+2870:M 05 Aug 22:36:46.092 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 22:36:46.092 * Background saving started by pid 3704
+3704:C 05 Aug 22:36:46.095 * DB saved on disk
+3704:C 05 Aug 22:36:46.096 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 22:36:46.192 * Background saving terminated with success
+2870:M 05 Aug 22:41:47.012 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 22:41:47.012 * Background saving started by pid 3706
+3706:C 05 Aug 22:41:47.013 * DB saved on disk
+3706:C 05 Aug 22:41:47.014 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 22:41:47.114 * Background saving terminated with success
+2870:M 05 Aug 22:46:48.015 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 22:46:48.015 * Background saving started by pid 3720
+3720:C 05 Aug 22:46:48.017 * DB saved on disk
+3720:C 05 Aug 22:46:48.018 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 22:46:48.116 * Background saving terminated with success
+2870:M 05 Aug 23:00:03.200 * 10 changes in 300 seconds. Saving...
+2870:M 05 Aug 23:00:03.200 * Background saving started by pid 3739
+3739:C 05 Aug 23:00:03.202 * DB saved on disk
+3739:C 05 Aug 23:00:03.203 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 23:00:03.301 * Background saving terminated with success
+2870:M 05 Aug 23:15:04.084 * 1 changes in 900 seconds. Saving...
+2870:M 05 Aug 23:15:04.085 * Background saving started by pid 3828
+3828:C 05 Aug 23:15:04.093 * DB saved on disk
+3828:C 05 Aug 23:15:04.094 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 23:15:04.186 * Background saving terminated with success
+2870:M 05 Aug 23:53:49.525 * 1 changes in 900 seconds. Saving...
+2870:M 05 Aug 23:53:49.526 * Background saving started by pid 3888
+3888:C 05 Aug 23:53:49.527 * DB saved on disk
+3888:C 05 Aug 23:53:49.527 * RDB: 0 MB of memory used by copy-on-write
+2870:M 05 Aug 23:53:49.626 * Background saving terminated with success
+2870:M 06 Aug 00:06:58.103 * 10 changes in 300 seconds. Saving...
+2870:M 06 Aug 00:06:58.103 * Background saving started by pid 4170
+4170:C 06 Aug 00:06:58.113 * DB saved on disk
+4170:C 06 Aug 00:06:58.113 * RDB: 0 MB of memory used by copy-on-write
+2870:M 06 Aug 00:06:58.203 * Background saving terminated with success
+2870:M 06 Aug 00:16:27.188 * 10 changes in 300 seconds. Saving...
+2870:M 06 Aug 00:16:27.188 * Background saving started by pid 4204
+4204:C 06 Aug 00:16:27.200 * DB saved on disk
+4204:C 06 Aug 00:16:27.200 * RDB: 0 MB of memory used by copy-on-write
+2870:M 06 Aug 00:16:27.289 * Background saving terminated with success
+2870:M 06 Aug 00:21:52.531 * 10 changes in 300 seconds. Saving...
+2870:M 06 Aug 00:21:52.532 * Background saving started by pid 4215
+4215:C 06 Aug 00:21:52.534 * DB saved on disk
+4215:C 06 Aug 00:21:52.534 * RDB: 0 MB of memory used by copy-on-write
+2870:M 06 Aug 00:21:52.632 * Background saving terminated with success
+2870:M 06 Aug 00:29:22.401 * 10 changes in 300 seconds. Saving...
+2870:M 06 Aug 00:29:22.401 * Background saving started by pid 4372
+4372:C 06 Aug 00:29:22.411 * DB saved on disk
+4372:C 06 Aug 00:29:22.412 * RDB: 0 MB of memory used by copy-on-write
+2870:M 06 Aug 00:29:22.503 * Background saving terminated with success
+2870:M 06 Aug 09:43:10.194 * 1 changes in 900 seconds. Saving...
+2870:M 06 Aug 09:43:10.195 * Background saving started by pid 4430
+4430:C 06 Aug 09:43:10.213 * DB saved on disk
+4430:C 06 Aug 09:43:10.213 * RDB: 0 MB of memory used by copy-on-write
+2870:M 06 Aug 09:43:10.295 * Background saving terminated with success
+2870:M 06 Aug 09:58:11.008 * 1 changes in 900 seconds. Saving...
+2870:M 06 Aug 09:58:11.009 * Background saving started by pid 4967
+4967:C 06 Aug 09:58:11.023 * DB saved on disk
+4967:C 06 Aug 09:58:11.024 * RDB: 0 MB of memory used by copy-on-write
+2870:M 06 Aug 09:58:11.110 * Background saving terminated with success
+2870:M 06 Aug 10:13:12.050 * 1 changes in 900 seconds. Saving...
+2870:M 06 Aug 10:13:12.051 * Background saving started by pid 5524
+5524:C 06 Aug 10:13:12.054 * DB saved on disk
+5524:C 06 Aug 10:13:12.055 * RDB: 0 MB of memory used by copy-on-write
+2870:M 06 Aug 10:13:12.152 * Background saving terminated with success
+2870:M 06 Aug 10:26:27.663 * 10 changes in 300 seconds. Saving...
+2870:M 06 Aug 10:26:27.664 * Background saving started by pid 5547
+5547:C 06 Aug 10:26:27.666 * DB saved on disk
+5547:C 06 Aug 10:26:27.667 * RDB: 0 MB of memory used by copy-on-write
+2870:M 06 Aug 10:26:27.764 * Background saving terminated with success
+2870:M 06 Aug 10:37:41.351 * 10 changes in 300 seconds. Saving...
+2870:M 06 Aug 10:37:41.351 * Background saving started by pid 5565
+5565:C 06 Aug 10:37:41.357 * DB saved on disk
+5565:C 06 Aug 10:37:41.358 * RDB: 0 MB of memory used by copy-on-write
+2870:M 06 Aug 10:37:41.452 * Background saving terminated with success
+2870:M 06 Aug 10:42:42.003 * 10 changes in 300 seconds. Saving...
+2870:M 06 Aug 10:42:42.004 * Background saving started by pid 5578
+5578:C 06 Aug 10:42:42.010 * DB saved on disk
+5578:C 06 Aug 10:42:42.011 * RDB: 0 MB of memory used by copy-on-write
+2870:M 06 Aug 10:42:42.105 * Background saving terminated with success
+2870:M 06 Aug 12:06:08.390 * 1 changes in 900 seconds. Saving...
+2870:M 06 Aug 12:06:08.391 * Background saving started by pid 5689
+5689:C 06 Aug 12:06:08.396 * DB saved on disk
+5689:C 06 Aug 12:06:08.397 * RDB: 0 MB of memory used by copy-on-write
+2870:M 06 Aug 12:06:08.491 * Background saving terminated with success
+2870:M 06 Aug 21:03:07.975 * 1 changes in 900 seconds. Saving...
+2870:M 06 Aug 21:03:07.998 * Background saving started by pid 5748
+5748:C 06 Aug 21:03:08.231 * DB saved on disk
+5748:C 06 Aug 21:03:08.232 * RDB: 0 MB of memory used by copy-on-write
+2870:M 06 Aug 21:03:08.310 * Background saving terminated with success
+2018-08-13T01:18:32.569992Z 0 [System] [MY-010116] [Server] /usr/local/mysql/bin/mysqld (mysqld 8.0.11) starting as process 3162
+2018-08-13T01:18:35.829552Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2018-08-13T01:18:35.829678Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2018-08-13T01:18:35.936259Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-08-13T01:18:36.048638Z 0 [System] [MY-010931] [Server] /usr/local/mysql/bin/mysqld: ready for connections. Version: '8.0.11'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+3209:C 13 Aug 09:18:50.556 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3209:C 13 Aug 09:18:50.556 # Redis version=4.0.9, bits=64, commit=00000000, modified=0, pid=3209, just started
+3209:C 13 Aug 09:18:50.557 # Configuration loaded
+3209:M 13 Aug 09:18:50.560 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 3209
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3209:M 13 Aug 09:18:50.570 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+3209:M 13 Aug 09:18:50.570 # Server initialized
+3209:M 13 Aug 09:18:50.570 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+3209:M 13 Aug 09:18:50.570 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+3209:M 13 Aug 09:18:50.572 * DB loaded from disk: 0.002 seconds
+3209:M 13 Aug 09:18:50.572 * Ready to accept connections
+3209:M 13 Aug 09:23:51.042 * 10 changes in 300 seconds. Saving...
+3209:M 13 Aug 09:23:51.043 * Background saving started by pid 3593
+3593:C 13 Aug 09:23:51.048 * DB saved on disk
+3593:C 13 Aug 09:23:51.050 * RDB: 0 MB of memory used by copy-on-write
+3209:M 13 Aug 09:23:51.145 * Background saving terminated with success
+3209:M 13 Aug 09:38:52.021 * 1 changes in 900 seconds. Saving...
+3209:M 13 Aug 09:38:52.022 * Background saving started by pid 3692
+3692:C 13 Aug 09:38:52.027 * DB saved on disk
+3692:C 13 Aug 09:38:52.029 * RDB: 0 MB of memory used by copy-on-write
+3209:M 13 Aug 09:38:52.123 * Background saving terminated with success
+3209:M 13 Aug 09:48:36.651 * 10 changes in 300 seconds. Saving...
+3209:M 13 Aug 09:48:36.651 * Background saving started by pid 3715
+3715:C 13 Aug 09:48:36.652 * DB saved on disk
+3715:C 13 Aug 09:48:36.653 * RDB: 0 MB of memory used by copy-on-write
+3209:M 13 Aug 09:48:36.751 * Background saving terminated with success
+3209:M 13 Aug 10:03:37.005 * 1 changes in 900 seconds. Saving...
+3209:M 13 Aug 10:03:37.006 * Background saving started by pid 3738
+3738:C 13 Aug 10:03:37.010 * DB saved on disk
+3738:C 13 Aug 10:03:37.011 * RDB: 0 MB of memory used by copy-on-write
+3209:M 13 Aug 10:03:37.108 * Background saving terminated with success
+3209:M 13 Aug 10:23:26.855 * 1 changes in 900 seconds. Saving...
+3209:M 13 Aug 10:23:26.855 * Background saving started by pid 3783
+3783:C 13 Aug 10:23:26.857 * DB saved on disk
+3783:C 13 Aug 10:23:26.858 * RDB: 0 MB of memory used by copy-on-write
+3209:M 13 Aug 10:23:26.956 * Background saving terminated with success
+3209:M 13 Aug 10:28:41.744 * 10 changes in 300 seconds. Saving...
+3209:M 13 Aug 10:28:41.745 * Background saving started by pid 3874
+3874:C 13 Aug 10:28:41.764 * DB saved on disk
+3874:C 13 Aug 10:28:41.765 * RDB: 0 MB of memory used by copy-on-write
+3209:M 13 Aug 10:28:41.845 * Background saving terminated with success
+3209:M 13 Aug 10:33:42.058 * 10 changes in 300 seconds. Saving...
+3209:M 13 Aug 10:33:42.059 * Background saving started by pid 3887
+3887:C 13 Aug 10:33:42.064 * DB saved on disk
+3887:C 13 Aug 10:33:42.065 * RDB: 0 MB of memory used by copy-on-write
+3209:M 13 Aug 10:33:42.160 * Background saving terminated with success
+3209:M 14 Aug 15:27:33.071 * 1 changes in 900 seconds. Saving...
+3209:M 14 Aug 15:27:33.120 * Background saving started by pid 3947
+3947:C 14 Aug 15:27:33.188 * DB saved on disk
+3947:C 14 Aug 15:27:33.189 * RDB: 0 MB of memory used by copy-on-write
+3209:M 14 Aug 15:27:33.221 * Background saving terminated with success
+3209:M 14 Aug 15:33:49.553 * 10 changes in 300 seconds. Saving...
+3209:M 14 Aug 15:33:49.553 * Background saving started by pid 6207
+6207:C 14 Aug 15:33:49.558 * DB saved on disk
+6207:C 14 Aug 15:33:49.559 * RDB: 0 MB of memory used by copy-on-write
+3209:M 14 Aug 15:33:49.654 * Background saving terminated with success
+2018-08-14T07:53:55.869590Z 0 [System] [MY-010116] [Server] /usr/local/mysql/bin/mysqld (mysqld 8.0.11) starting as process 2761
+2018-08-14T07:53:58.897931Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2018-08-14T07:53:58.898164Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2018-08-14T07:53:58.924543Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-08-14T07:53:59.047681Z 0 [System] [MY-010931] [Server] /usr/local/mysql/bin/mysqld: ready for connections. Version: '8.0.11'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2810:C 14 Aug 15:54:07.358 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2810:C 14 Aug 15:54:07.358 # Redis version=4.0.9, bits=64, commit=00000000, modified=0, pid=2810, just started
+2810:C 14 Aug 15:54:07.358 # Configuration loaded
+2810:M 14 Aug 15:54:07.362 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 2810
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2810:M 14 Aug 15:54:07.371 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2810:M 14 Aug 15:54:07.371 # Server initialized
+2810:M 14 Aug 15:54:07.371 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2810:M 14 Aug 15:54:07.371 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2810:M 14 Aug 15:54:07.372 * DB loaded from disk: 0.001 seconds
+2810:M 14 Aug 15:54:07.372 * Ready to accept connections
+2810:M 14 Aug 15:59:08.005 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 15:59:08.005 * Background saving started by pid 2985
+2985:C 14 Aug 15:59:08.006 * DB saved on disk
+2985:C 14 Aug 15:59:08.007 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 15:59:08.106 * Background saving terminated with success
+2810:M 14 Aug 16:08:40.157 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 16:08:40.157 * Background saving started by pid 3003
+3003:C 14 Aug 16:08:40.168 * DB saved on disk
+3003:C 14 Aug 16:08:40.169 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 16:08:40.258 * Background saving terminated with success
+2810:M 14 Aug 16:15:15.193 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 16:15:15.194 * Background saving started by pid 3020
+3020:C 14 Aug 16:15:15.196 * DB saved on disk
+3020:C 14 Aug 16:15:15.196 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 16:15:15.297 * Background saving terminated with success
+2810:M 14 Aug 16:20:16.039 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 16:20:16.040 * Background saving started by pid 3026
+3026:C 14 Aug 16:20:16.044 * DB saved on disk
+3026:C 14 Aug 16:20:16.045 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 16:20:16.141 * Background saving terminated with success
+2810:M 14 Aug 16:26:13.616 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 16:26:13.617 * Background saving started by pid 3040
+3040:C 14 Aug 16:26:13.620 * DB saved on disk
+3040:C 14 Aug 16:26:13.620 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 16:26:13.717 * Background saving terminated with success
+2810:M 14 Aug 16:41:14.057 * 1 changes in 900 seconds. Saving...
+2810:M 14 Aug 16:41:14.058 * Background saving started by pid 3088
+3088:C 14 Aug 16:41:14.063 * DB saved on disk
+3088:C 14 Aug 16:41:14.065 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 16:41:14.159 * Background saving terminated with success
+2810:M 14 Aug 16:56:15.016 * 1 changes in 900 seconds. Saving...
+2810:M 14 Aug 16:56:15.017 * Background saving started by pid 3119
+3119:C 14 Aug 16:56:15.021 * DB saved on disk
+3119:C 14 Aug 16:56:15.023 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 16:56:15.118 * Background saving terminated with success
+2810:M 14 Aug 17:01:16.041 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 17:01:16.042 * Background saving started by pid 3231
+3231:C 14 Aug 17:01:16.046 * DB saved on disk
+3231:C 14 Aug 17:01:16.048 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 17:01:16.144 * Background saving terminated with success
+2810:M 14 Aug 17:06:17.064 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 17:06:17.065 * Background saving started by pid 3246
+3246:C 14 Aug 17:06:17.067 * DB saved on disk
+3246:C 14 Aug 17:06:17.068 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 17:06:17.165 * Background saving terminated with success
+2810:M 14 Aug 17:11:18.064 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 17:11:18.065 * Background saving started by pid 3250
+3250:C 14 Aug 17:11:18.071 * DB saved on disk
+3250:C 14 Aug 17:11:18.073 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 17:11:18.166 * Background saving terminated with success
+2810:M 14 Aug 17:16:19.080 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 17:16:19.081 * Background saving started by pid 3270
+3270:C 14 Aug 17:16:19.083 * DB saved on disk
+3270:C 14 Aug 17:16:19.084 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 17:16:19.182 * Background saving terminated with success
+2810:M 14 Aug 17:21:20.017 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 17:21:20.017 * Background saving started by pid 3282
+3282:C 14 Aug 17:21:20.019 * DB saved on disk
+3282:C 14 Aug 17:21:20.019 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 17:21:20.117 * Background saving terminated with success
+2810:M 14 Aug 17:27:44.686 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 17:27:44.687 * Background saving started by pid 3285
+3285:C 14 Aug 17:27:44.690 * DB saved on disk
+3285:C 14 Aug 17:27:44.691 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 17:27:44.788 * Background saving terminated with success
+2810:M 14 Aug 17:32:45.087 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 17:32:45.089 * Background saving started by pid 3299
+3299:C 14 Aug 17:32:45.094 * DB saved on disk
+3299:C 14 Aug 17:32:45.095 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 17:32:45.190 * Background saving terminated with success
+2810:M 14 Aug 17:41:57.725 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 17:41:57.726 * Background saving started by pid 3304
+3304:C 14 Aug 17:41:57.729 * DB saved on disk
+3304:C 14 Aug 17:41:57.730 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 17:41:57.827 * Background saving terminated with success
+2810:M 14 Aug 17:46:58.040 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 17:46:58.040 * Background saving started by pid 3317
+3317:C 14 Aug 17:46:58.042 * DB saved on disk
+3317:C 14 Aug 17:46:58.042 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 17:46:58.141 * Background saving terminated with success
+2810:M 14 Aug 17:51:59.097 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 17:51:59.098 * Background saving started by pid 3322
+3322:C 14 Aug 17:51:59.103 * DB saved on disk
+3322:C 14 Aug 17:51:59.104 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 17:51:59.199 * Background saving terminated with success
+2810:M 14 Aug 18:19:36.143 * 1 changes in 900 seconds. Saving...
+2810:M 14 Aug 18:19:36.144 * Background saving started by pid 3360
+3360:C 14 Aug 18:19:36.150 * DB saved on disk
+3360:C 14 Aug 18:19:36.151 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 18:19:36.245 * Background saving terminated with success
+2810:M 14 Aug 18:24:37.038 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 18:24:37.039 * Background saving started by pid 3373
+3373:C 14 Aug 18:24:37.043 * DB saved on disk
+3373:C 14 Aug 18:24:37.044 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 18:24:37.140 * Background saving terminated with success
+2810:M 14 Aug 18:29:38.010 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 18:29:38.011 * Background saving started by pid 3377
+3377:C 14 Aug 18:29:38.017 * DB saved on disk
+3377:C 14 Aug 18:29:38.018 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 18:29:38.111 * Background saving terminated with success
+2810:M 14 Aug 18:44:39.044 * 1 changes in 900 seconds. Saving...
+2810:M 14 Aug 18:44:39.045 * Background saving started by pid 3395
+3395:C 14 Aug 18:44:39.048 * DB saved on disk
+3395:C 14 Aug 18:44:39.049 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 18:44:39.150 * Background saving terminated with success
+2810:M 14 Aug 20:40:42.652 * 1 changes in 900 seconds. Saving...
+2810:M 14 Aug 20:40:42.652 * Background saving started by pid 3568
+3568:C 14 Aug 20:40:42.653 * DB saved on disk
+3568:C 14 Aug 20:40:42.654 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 20:40:42.753 * Background saving terminated with success
+2810:M 14 Aug 20:55:43.044 * 1 changes in 900 seconds. Saving...
+2810:M 14 Aug 20:55:43.044 * Background saving started by pid 3585
+3585:C 14 Aug 20:55:43.045 * DB saved on disk
+3585:C 14 Aug 20:55:43.046 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 20:55:43.145 * Background saving terminated with success
+2810:M 14 Aug 21:17:38.605 * 1 changes in 900 seconds. Saving...
+2810:M 14 Aug 21:17:38.605 * Background saving started by pid 3611
+3611:C 14 Aug 21:17:38.606 * DB saved on disk
+3611:C 14 Aug 21:17:38.606 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 21:17:38.705 * Background saving terminated with success
+2810:M 14 Aug 21:22:39.082 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 21:22:39.082 * Background saving started by pid 3626
+3626:C 14 Aug 21:22:39.083 * DB saved on disk
+3626:C 14 Aug 21:22:39.083 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 21:22:39.182 * Background saving terminated with success
+2810:M 14 Aug 21:31:49.957 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 21:31:49.957 * Background saving started by pid 3632
+3632:C 14 Aug 21:31:49.959 * DB saved on disk
+3632:C 14 Aug 21:31:49.959 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 21:31:50.058 * Background saving terminated with success
+2810:M 14 Aug 21:39:40.082 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 21:39:40.083 * Background saving started by pid 3648
+3648:C 14 Aug 21:39:40.086 * DB saved on disk
+3648:C 14 Aug 21:39:40.087 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 21:39:40.184 * Background saving terminated with success
+2810:M 14 Aug 21:44:41.077 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 21:44:41.078 * Background saving started by pid 3650
+3650:C 14 Aug 21:44:41.078 * DB saved on disk
+3650:C 14 Aug 21:44:41.079 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 21:44:41.178 * Background saving terminated with success
+2810:M 14 Aug 21:53:40.848 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 21:53:40.852 * Background saving started by pid 3666
+3666:C 14 Aug 21:53:40.855 * DB saved on disk
+3666:C 14 Aug 21:53:40.856 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 21:53:40.953 * Background saving terminated with success
+2810:M 14 Aug 22:01:38.912 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 22:01:38.912 * Background saving started by pid 3679
+3679:C 14 Aug 22:01:38.914 * DB saved on disk
+3679:C 14 Aug 22:01:38.914 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 22:01:39.014 * Background saving terminated with success
+2810:M 14 Aug 22:06:40.080 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 22:06:40.080 * Background saving started by pid 3695
+3695:C 14 Aug 22:06:40.090 * DB saved on disk
+3695:C 14 Aug 22:06:40.090 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 22:06:40.181 * Background saving terminated with success
+2810:M 14 Aug 22:11:41.043 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 22:11:41.043 * Background saving started by pid 3709
+3709:C 14 Aug 22:11:41.052 * DB saved on disk
+3709:C 14 Aug 22:11:41.053 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 22:11:41.144 * Background saving terminated with success
+2810:M 14 Aug 22:16:42.083 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 22:16:42.084 * Background saving started by pid 3712
+3712:C 14 Aug 22:16:42.085 * DB saved on disk
+3712:C 14 Aug 22:16:42.085 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 22:16:42.185 * Background saving terminated with success
+2810:M 14 Aug 22:21:43.016 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 22:21:43.016 * Background saving started by pid 3719
+3719:C 14 Aug 22:21:43.017 * DB saved on disk
+3719:C 14 Aug 22:21:43.017 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 22:21:43.117 * Background saving terminated with success
+2810:M 14 Aug 22:26:44.052 * 10 changes in 300 seconds. Saving...
+2810:M 14 Aug 22:26:44.052 * Background saving started by pid 3732
+3732:C 14 Aug 22:26:44.053 * DB saved on disk
+3732:C 14 Aug 22:26:44.053 * RDB: 0 MB of memory used by copy-on-write
+2810:M 14 Aug 22:26:44.153 * Background saving terminated with success
+2810:M 15 Aug 11:22:56.374 * 1 changes in 900 seconds. Saving...
+2810:M 15 Aug 11:22:56.376 * Background saving started by pid 3779
+3779:C 15 Aug 11:22:56.913 * DB saved on disk
+3779:C 15 Aug 11:22:56.914 * RDB: 0 MB of memory used by copy-on-write
+2810:M 15 Aug 11:22:57.058 * Background saving terminated with success
+2810:signal-handler (1534303585) Received SIGTERM scheduling shutdown...
+
+Status information:
+
+Current dir: /usr/local/mysql/data/
+Running threads: 1  Stack size: 286720
+Current locks:
+lock: 0x343ea80:
+
+lock: 0x343e480:
+
+lock: 0x343ed80:
+
+lock: 0x343e380:
+
+lock: 0x343e280:
+
+lock: 0x343e180:
+
+lock: 0x343e080:
+
+lock: 0x343df80:
+
+lock: 0x343de80:
+
+lock: 0x343dd80:
+
+lock: 0x343dc80:
+
+lock: 0x343db80:
+
+lock: 0x343ec80:
+
+lock: 0x343a180:
+
+lock: 0x343f940:
+
+lock: 0x343fb80:
+
+lock: 0x343fa60:
+
+lock: 0x343f840:
+
+lock: 0x343f720:
+
+lock: 0x343f600:
+
+lock: 0x343f4e0:
+
+lock: 0x343f3c0:
+
+lock: 0x343f2a0:
+
+lock: 0x343f1a0:
+
+lock: 0x343f080:
+
+lock: 0x343c480:
+
+lock: 0x343c380:
+
+lock: 0x343c280:
+
+lock: 0x343e580:
+
+lock: 0x343c980:
+
+lock: 0x343c880:
+
+lock: 0x343c780:
+
+lock: 0x343c680:
+
+lock: 0x343c580:
+
+lock: 0x343ef80:
+
+lock: 0x343ee80:
+
+lock: 0x343ce80:
+
+lock: 0x343cd80:
+
+lock: 0x343cc80:
+
+lock: 0x343d080:
+
+lock: 0x3439580:
+
+lock: 0x343eb80:
+
+lock: 0x343ae80:
+
+lock: 0x343ad80:
+
+lock: 0x343aa80:
+
+lock: 0x343ab80:
+
+lock: 0x343ac80:
+
+lock: 0x343a980:
+
+lock: 0x343a680:
+
+lock: 0x343a880:
+
+lock: 0x343a580:
+
+lock: 0x343a780:
+
+lock: 0x343b580:
+
+lock: 0x343b680:
+
+lock: 0x343b780:
+
+lock: 0x3439c80:
+
+lock: 0x3439b80:
+
+lock: 0x343a080:
+
+lock: 0x3439f80:
+
+lock: 0x343a480:
+
+lock: 0x3439e80:
+
+lock: 0x343a380:
+
+lock: 0x3439d80:
+
+lock: 0x343a280:
+
+lock: 0x343b280:
+
+lock: 0x343b380:
+
+lock: 0x343b480:
+
+lock: 0x3439a80:
+
+lock: 0x3439780:
+
+lock: 0x3439980:
+
+lock: 0x3439680:
+
+lock: 0x3439880:
+
+lock: 0x343af80:
+
+lock: 0x343b080:
+
+lock: 0x343b180:
+
+lock: 0x343e680:
+
+lock: 0x343e980:
+
+lock: 0x343e880:
+
+lock: 0x343e780:
+
+lock: 0x343d780:
+
+lock: 0x343d680:
+
+lock: 0x343d580:
+
+lock: 0x343d480:
+
+lock: 0x343d380:
+
+lock: 0x343d980:
+
+lock: 0x343d280:
+
+lock: 0x343d180:
+
+lock: 0x343da80:
+
+lock: 0x343cf80:
+
+lock: 0x343ca80:
+
+lock: 0x343cb80:
+
+lock: 0x343c180:
+
+lock: 0x343c080:
+
+lock: 0x343bc80:
+
+lock: 0x343bf80:
+
+lock: 0x343be80:
+
+lock: 0x343bb80:
+
+lock: 0x343bd80:
+
+lock: 0x343b880:
+
+lock: 0x343b980:
+
+
+Key caches:
+default
+Buffer_size:       8388608
+Block_size:           1024
+Division_limit:        100
+Age_limit:             300
+blocks used:             0
+not flushed:             0
+w_requests:              0
+writes:                  0
+r_requests:              0
+reads:                   0
+
+
+handler status:
+read_key:         3475
+read_next:        3948
+read_rnd             5
+read_first:       1373
+write:               5
+delete               4
+update:            319
+
+Table status:
+Opened tables:        193
+Open tables:          171
+Open files:             2
+Open streams:           0
+
+Memory status:
+<malloc version="1">
+<heap nr="0">
+<sizes>
+							        <size from="17" to="32" total="64" count="2"/>
+							        <size from="33" to="48" total="144" count="3"/>
+							        <size from="49" to="64" total="448" count="7"/>
+							        <size from="97" to="97" total="2037" count="21"/>
+							        <size from="12337" to="12337" total="12337" count="1"/>
+  <unsorted from="6737" to="6737" total="6737" count="1"/>
+</sizes>
+<total type="fast" count="12" size="656"/>
+<total type="rest" count="23" size="21111"/>
+<system type="current" size="23097344"/>
+<system type="max" size="23097344"/>
+<aspace type="total" size="23097344"/>
+<aspace type="mprotect" size="23097344"/>
+</heap>
+<heap nr="1">
+<sizes>
+							        <size from="33" to="48" total="192" count="4"/>
+							        <size from="49" to="64" total="384" count="6"/>
+							        <size from="65" to="80" total="80" count="1"/>
+							        <size from="113" to="128" total="384" count="3"/>
+							        <size from="33" to="33" total="99" count="3"/>
+							        <size from="113" to="113" total="113" count="1"/>
+							        <size from="225" to="225" total="225" count="1"/>
+							        <size from="257" to="257" total="257" count="1"/>
+							        <size from="465" to="465" total="465" count="1"/>
+							        <size from="28769" to="28769" total="28769" count="1"/>
+							        <size from="43297" to="43297" total="43297" count="1"/>
+  <unsorted from="1105" to="32817" total="100712" count="8"/>
+</sizes>
+<total type="fast" count="14" size="1040"/>
+<total type="rest" count="17" size="173937"/>
+<system type="current" size="348160"/>
+<system type="max" size="348160"/>
+<aspace type="total" size="348160"/>
+<aspace type="mprotect" size="348160"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="2">
+<sizes>
+							        <size from="33" to="48" total="48" count="1"/>
+							        <size from="49" to="64" total="128" count="2"/>
+							        <size from="113" to="128" total="384" count="3"/>
+							        <size from="33" to="33" total="99" count="3"/>
+							        <size from="65" to="65" total="195" count="3"/>
+							        <size from="97" to="97" total="1164" count="12"/>
+							        <size from="113" to="113" total="565" count="5"/>
+							        <size from="193" to="193" total="386" count="2"/>
+							        <size from="257" to="257" total="257" count="1"/>
+							        <size from="289" to="289" total="289" count="1"/>
+							        <size from="321" to="321" total="321" count="1"/>
+							        <size from="1809" to="1809" total="1809" count="1"/>
+							        <size from="3329" to="3329" total="3329" count="1"/>
+							        <size from="4289" to="4289" total="4289" count="1"/>
+							        <size from="16433" to="16433" total="16433" count="1"/>
+  <unsorted from="49" to="65633" total="142901" count="21"/>
+</sizes>
+<total type="fast" count="6" size="560"/>
+<total type="rest" count="53" size="172037"/>
+<system type="current" size="14757888"/>
+<system type="max" size="14757888"/>
+<aspace type="total" size="14757888"/>
+<aspace type="mprotect" size="14757888"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="3">
+<sizes>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="4">
+<sizes>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="5">
+<sizes>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="6">
+<sizes>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="7">
+<sizes>
+  <unsorted from="1841" to="1841" total="1841" count="1"/>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="1" size="1841"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="8">
+<sizes>
+							        <size from="65" to="65" total="325" count="5"/>
+							        <size from="81" to="81" total="162" count="2"/>
+							        <size from="97" to="97" total="485" count="5"/>
+							        <size from="113" to="113" total="113" count="1"/>
+							        <size from="129" to="129" total="129" count="1"/>
+							        <size from="161" to="161" total="322" count="2"/>
+							        <size from="193" to="193" total="193" count="1"/>
+							        <size from="225" to="225" total="225" count="1"/>
+							        <size from="257" to="257" total="257" count="1"/>
+							        <size from="305" to="305" total="305" count="1"/>
+							        <size from="321" to="321" total="321" count="1"/>
+							        <size from="401" to="401" total="401" count="1"/>
+							        <size from="673" to="673" total="673" count="1"/>
+							        <size from="721" to="721" total="721" count="1"/>
+							        <size from="817" to="817" total="817" count="1"/>
+							        <size from="897" to="897" total="897" count="1"/>
+							        <size from="913" to="913" total="913" count="1"/>
+							        <size from="1025" to="1073" total="2098" count="2"/>
+							        <size from="1121" to="1121" total="1121" count="1"/>
+							        <size from="1153" to="1153" total="1153" count="1"/>
+							        <size from="1841" to="1841" total="1841" count="1"/>
+							        <size from="2097" to="2097" total="2097" count="1"/>
+							        <size from="2241" to="2241" total="2241" count="1"/>
+							        <size from="2497" to="2497" total="2497" count="1"/>
+							        <size from="3457" to="3457" total="3457" count="1"/>
+							        <size from="3825" to="3825" total="3825" count="1"/>
+							        <size from="4369" to="4369" total="4369" count="1"/>
+							        <size from="9329" to="9329" total="9329" count="1"/>
+							        <size from="11361" to="11361" total="11361" count="1"/>
+							        <size from="12705" to="12705" total="12705" count="1"/>
+  <unsorted from="1585" to="1585" total="1585" count="1"/>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="42" size="66938"/>
+<system type="current" size="270336"/>
+<system type="max" size="270336"/>
+<aspace type="total" size="270336"/>
+<aspace type="mprotect" size="270336"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="9">
+<sizes>
+  <unsorted from="1761" to="19505" total="21266" count="2"/>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="2" size="21266"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="10">
+<sizes>
+							        <size from="49" to="64" total="64" count="1"/>
+							        <size from="33" to="33" total="99" count="3"/>
+							        <size from="97" to="97" total="97" count="1"/>
+							        <size from="177" to="177" total="177" count="1"/>
+							        <size from="769" to="769" total="769" count="1"/>
+							        <size from="1377" to="1377" total="1377" count="1"/>
+							        <size from="3105" to="3105" total="3105" count="1"/>
+							        <size from="4193" to="4193" total="4193" count="1"/>
+							        <size from="4673" to="4673" total="4673" count="1"/>
+							        <size from="22081" to="22081" total="22081" count="1"/>
+							        <size from="28001" to="28001" total="28001" count="1"/>
+							        <size from="38321" to="39297" total="77618" count="2"/>
+							        <size from="55457" to="59137" total="114594" count="2"/>
+							        <size from="323649" to="323649" total="323649" count="1"/>
+  <unsorted from="321" to="321" total="321" count="1"/>
+</sizes>
+<total type="fast" count="1" size="64"/>
+<total type="rest" count="18" size="580754"/>
+<system type="current" size="1708032"/>
+<system type="max" size="1708032"/>
+<aspace type="total" size="1708032"/>
+<aspace type="mprotect" size="1708032"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="11">
+<sizes>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="12">
+<sizes>
+							        <size from="49" to="49" total="49" count="1"/>
+							        <size from="81" to="81" total="81" count="1"/>
+							        <size from="97" to="97" total="97" count="1"/>
+							        <size from="113" to="113" total="226" count="2"/>
+							        <size from="129" to="129" total="387" count="3"/>
+							        <size from="161" to="161" total="322" count="2"/>
+							        <size from="177" to="177" total="177" count="1"/>
+							        <size from="209" to="209" total="209" count="1"/>
+							        <size from="257" to="257" total="257" count="1"/>
+							        <size from="1073" to="1073" total="1073" count="1"/>
+							        <size from="30353" to="30353" total="30353" count="1"/>
+  <unsorted from="3633" to="12337" total="15970" count="2"/>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="17" size="49201"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="13">
+<sizes>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="14">
+<sizes>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="15">
+<sizes>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="16">
+<sizes>
+							        <size from="33" to="48" total="48" count="1"/>
+  <unsorted from="1393" to="16145" total="23316" count="4"/>
+</sizes>
+<total type="fast" count="1" size="48"/>
+<total type="rest" count="4" size="23316"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="17">
+<sizes>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="135168"/>
+<syste2810:M 15 Aug 11:26:26.200 # User requested shutdown...
+2810:M 15 Aug 11:26:26.202 * Saving the final RDB snapshot before exiting.
+2810:M 15 Aug 11:26:26.208 * DB saved on disk
+2810:M 15 Aug 11:26:26.208 * Removing the pid file.
+2810:M 15 Aug 11:26:26.208 # Redis is now ready to exit, bye bye...
+m type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="18">
+<sizes>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="3633152"/>
+<system type="max" size="3633152"/>
+<aspace type="total" size="3633152"/>
+<aspace type="mprotect" size="3633152"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="19">
+<sizes>
+							        <size from="17" to="32" total="23360" count="730"/>
+							        <size from="33" to="48" total="19920" count="415"/>
+							        <size from="49" to="64" total="144896" count="2264"/>
+							        <size from="65" to="80" total="135280" count="1691"/>
+							        <size from="81" to="96" total="58656" count="611"/>
+							        <size from="97" to="112" total="9968" count="89"/>
+							        <size from="113" to="128" total="3328" count="26"/>
+							        <size from="33" to="33" total="165" count="5"/>
+							        <size from="49" to="49" total="4067" count="83"/>
+							        <size from="65" to="65" total="195" count="3"/>
+							        <size from="81" to="81" total="486" count="6"/>
+							        <size from="97" to="97" total="485" count="5"/>
+							        <size from="145" to="145" total="435" count="3"/>
+							        <size from="161" to="161" total="966" count="6"/>
+							        <size from="177" to="177" total="531" count="3"/>
+							        <size from="193" to="193" total="193" count="1"/>
+							        <size from="209" to="209" total="1254" count="6"/>
+							        <size from="225" to="225" total="675" count="3"/>
+							        <size from="241" to="241" total="241" count="1"/>
+							        <size from="257" to="257" total="514" count="2"/>
+							        <size from="273" to="273" total="5460" count="20"/>
+							        <size from="289" to="289" total="289" count="1"/>
+							        <size from="305" to="305" total="915" count="3"/>
+							        <size from="321" to="321" total="1284" count="4"/>
+							        <size from="337" to="337" total="1348" count="4"/>
+							        <size from="385" to="385" total="385" count="1"/>
+							        <size from="609" to="609" total="609" count="1"/>
+							        <size from="849" to="849" total="849" count="1"/>
+							        <size from="1345" to="1345" total="1345" count="1"/>
+							        <size from="1617" to="1617" total="1617" count="1"/>
+							        <size from="3153" to="3489" total="10067" count="3"/>
+							        <size from="4321" to="4337" total="12979" count="3"/>
+							        <size from="8209" to="8209" total="49254" count="6"/>
+							        <size from="14705" to="14705" total="14705" count="1"/>
+							        <size from="16401" to="16401" total="16401" count="1"/>
+							        <size from="22401" to="23633" total="92212" count="4"/>
+							        <size from="24913" to="27969" total="78147" count="3"/>
+							        <size from="29713" to="29713" total="29713" count="1"/>
+							        <size from="34689" to="35025" total="69714" count="2"/>
+							        <size from="38369" to="38369" total="38369" count="1"/>
+							        <size from="89841" to="92673" total="182514" count="2"/>
+  <unsorted from="81" to="76001" total="1561068" count="1804"/>
+</sizes>
+<total type="fast" count="5826" size="395408"/>
+<total type="rest" count="1995" size="2179451"/>
+<system type="current" size="12767232"/>
+<system type="max" size="12767232"/>
+<aspace type="total" size="12767232"/>
+<aspace type="mprotect" size="12767232"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<total type="fast" count="5860" size="397776"/>
+<total type="rest" count="2172" size="3289852"/>
+<total type="mmap" count="711" size="347131904"/>
+<system type="current" size="58339328"/>
+<system type="max" size="58339328"/>
+<aspace type="total" size="58339328"/>
+<aspace type="mprotect" size="58339328"/>
+</malloc>
+
+
+
+Events status:
+LLA = Last Locked At  LUA = Last Unlocked At
+WOC = Waiting On Condition  DL = Data Locked
+
+Event scheduler status:
+State      : RUNNING
+Thread id  : 4
+LLA        : is_running:651
+LUA        : is_running:653
+WOC        : NO
+Workers    : 0
+Executed   : 0
+Data locked: NO
+
+Event queue status:
+Element count   : 0
+Data locked     : NO
+Attempting lock : NO
+LLA             : get_top_for_execution_if_time:547
+LUA             : get_top_for_execution_if_time:566
+WOC             : YES
+Next activation : never
+
+Status information:
+
+Current dir: /usr/local/mysql/data/
+Running threads: 1  Stack size: 286720
+Current locks:
+lock: 0x343ea80:
+
+lock: 0x343e480:
+
+lock: 0x343ed80:
+
+lock: 0x343e380:
+
+lock: 0x343e280:
+
+lock: 0x343e180:
+
+lock: 0x343e080:
+
+lock: 0x343df80:
+
+lock: 0x343de80:
+
+lock: 0x343dd80:
+
+lock: 0x343dc80:
+
+lock: 0x343db80:
+
+lock: 0x343ec80:
+
+lock: 0x343a180:
+
+lock: 0x343f940:
+
+lock: 0x343fb80:
+
+lock: 0x343fa60:
+
+lock: 0x343f840:
+
+lock: 0x343f720:
+
+lock: 0x343f600:
+
+lock: 0x343f4e0:
+
+lock: 0x343f3c0:
+
+lock: 0x343f2a0:
+
+lock: 0x343f1a0:
+
+lock: 0x343f080:
+
+lock: 0x343c480:
+
+lock: 0x343c380:
+
+lock: 0x343c280:
+
+lock: 0x343e580:
+
+lock: 0x343c980:
+
+lock: 0x343c880:
+
+lock: 0x343c780:
+
+lock: 0x343c680:
+
+lock: 0x343c580:
+
+lock: 0x343ef80:
+
+lock: 0x343ee80:
+
+lock: 0x343ce80:
+
+lock: 0x343cd80:
+
+lock: 0x343cc80:
+
+lock: 0x343d080:
+
+lock: 0x3439580:
+
+lock: 0x343eb80:
+
+lock: 0x343ae80:
+
+lock: 0x343ad80:
+
+lock: 0x343aa80:
+
+lock: 0x343ab80:
+
+lock: 0x343ac80:
+
+lock: 0x343a980:
+
+lock: 0x343a680:
+
+lock: 0x343a880:
+
+lock: 0x343a580:
+
+lock: 0x343a780:
+
+lock: 0x343b580:
+
+lock: 0x343b680:
+
+lock: 0x343b780:
+
+lock: 0x3439c80:
+
+lock: 0x3439b80:
+
+lock: 0x343a080:
+
+lock: 0x3439f80:
+
+lock: 0x343a480:
+
+lock: 0x3439e80:
+
+lock: 0x343a380:
+
+lock: 0x3439d80:
+
+lock: 0x343a280:
+
+lock: 0x343b280:
+
+lock: 0x343b380:
+
+lock: 0x343b480:
+
+lock: 0x3439a80:
+
+lock: 0x3439780:
+
+lock: 0x3439980:
+
+lock: 0x3439680:
+
+lock: 0x3439880:
+
+lock: 0x343af80:
+
+lock: 0x343b080:
+
+lock: 0x343b180:
+
+lock: 0x343e680:
+
+lock: 0x343e980:
+
+lock: 0x343e880:
+
+lock: 0x343e780:
+
+lock: 0x343d780:
+
+lock: 0x343d680:
+
+lock: 0x343d580:
+
+lock: 0x343d480:
+
+lock: 0x343d380:
+
+lock: 0x343d980:
+
+lock: 0x343d280:
+
+lock: 0x343d180:
+
+lock: 0x343da80:
+
+lock: 0x343cf80:
+
+lock: 0x343ca80:
+
+lock: 0x343cb80:
+
+lock: 0x343c180:
+
+lock: 0x343c080:
+
+lock: 0x343bc80:
+
+lock: 0x343bf80:
+
+lock: 0x343be80:
+
+lock: 0x343bb80:
+
+lock: 0x343bd80:
+
+lock: 0x343b880:
+
+lock: 0x343b980:
+
+
+Key caches:
+default
+Buffer_size:       8388608
+Block_size:           1024
+Division_limit:        100
+Age_limit:             300
+blocks used:             0
+not flushed:             0
+w_requests:              0
+writes:                  0
+r_requests:              0
+reads:                   0
+
+
+handler status:
+read_key:         3484
+read_next:        3950
+read_rnd             5
+read_first:       1382
+write:               5
+delete               4
+update:            319
+
+Table status:
+Opened tables:        193
+Open tables:            0
+Open files:             2
+Open streams:           0
+
+Memory status:
+<malloc version="1">
+<heap nr="0">
+<sizes>
+							        <size from="17" to="32" total="992" count="31"/>
+							        <size from="33" to="48" total="3888" count="81"/>
+							        <size from="49" to="64" total="4224" count="66"/>
+							        <size from="65" to="80" total="6640" count="83"/>
+							        <size from="81" to="96" total="96" count="1"/>
+							        <size from="97" to="112" total="1008" count="9"/>
+							        <size from="113" to="128" total="2688" count="21"/>
+							        <size from="97" to="97" total="2037" count="21"/>
+							        <size from="12337" to="12337" total="12337" count="1"/>
+  <unsorted from="33" to="82561" total="1464741" count="325"/>
+</sizes>
+<total type="fast" count="292" size="19536"/>
+<total type="rest" count="347" size="1479115"/>
+<system type="current" size="23097344"/>
+<system type="max" size="23097344"/>
+<aspace type="total" size="23097344"/>
+<aspace type="mprotect" size="23097344"/>
+</heap>
+<heap nr="1">
+<sizes>
+							        <size from="33" to="33" total="66" count="2"/>
+							        <size from="113" to="113" total="113" count="1"/>
+							        <size from="257" to="257" total="257" count="1"/>
+  <unsorted from="49" to="29041" total="117096" count="24"/>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="28" size="117532"/>
+<system type="current" size="348160"/>
+<system type="max" size="348160"/>
+<aspace type="total" size="348160"/>
+<aspace type="mprotect" size="348160"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="2">
+<sizes>
+							        <size from="33" to="48" total="48" count="1"/>
+							        <size from="49" to="64" total="64" count="1"/>
+							        <size from="33" to="33" total="33" count="1"/>
+							        <size from="65" to="65" total="65" count="1"/>
+							        <size from="97" to="97" total="388" count="4"/>
+							        <size from="289" to="289" total="289" count="1"/>
+							        <size from="321" to="321" total="321" count="1"/>
+  <unsorted from="33" to="343905" total="2791238" count="198"/>
+</sizes>
+<total type="fast" count="2" size="112"/>
+<total type="rest" count="206" size="2792334"/>
+<system type="current" size="14757888"/>
+<system type="max" size="14757888"/>
+<aspace type="total" size="14757888"/>
+<aspace type="mprotect" size="14757888"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="3">
+<sizes>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="4">
+<sizes>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="5">
+<sizes>
+							        <size from="33" to="33" total="231" count="7"/>
+							        <size from="49" to="49" total="49" count="1"/>
+							        <size from="65" to="65" total="65" count="1"/>
+							        <size from="29393" to="29393" total="29393" count="1"/>
+  <unsorted from="12465" to="12465" total="12465" count="1"/>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="11" size="42203"/>
+<system type="current" size="1507328"/>
+<system type="max" size="1507328"/>
+<aspace type="total" size="1507328"/>
+<aspace type="mprotect" size="1507328"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="6">
+<sizes>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="7">
+<sizes>
+  <unsorted from="1841" to="1841" total="1841" count="1"/>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="1" size="1841"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="8">
+<sizes>
+							        <size from="17" to="32" total="64" count="2"/>
+							        <size from="33" to="48" total="96" count="2"/>
+							        <size from="49" to="64" total="384" count="6"/>
+							        <size from="65" to="65" total="325" count="5"/>
+							        <size from="81" to="81" total="81" count="1"/>
+							        <size from="97" to="97" total="485" count="5"/>
+							        <size from="113" to="113" total="113" count="1"/>
+							        <size from="129" to="129" total="129" count="1"/>
+							        <size from="161" to="161" total="322" count="2"/>
+							        <size from="193" to="193" total="193" count="1"/>
+							        <size from="225" to="225" total="225" count="1"/>
+							        <size from="257" to="257" total="257" count="1"/>
+							        <size from="305" to="305" total="305" count="1"/>
+							        <size from="321" to="321" total="321" count="1"/>
+							        <size from="401" to="401" total="401" count="1"/>
+							        <size from="673" to="673" total="673" count="1"/>
+							        <size from="721" to="721" total="721" count="1"/>
+							        <size from="817" to="817" total="817" count="1"/>
+							        <size from="897" to="897" total="897" count="1"/>
+							        <size from="1025" to="1073" total="2098" count="2"/>
+							        <size from="1121" to="1121" total="1121" count="1"/>
+							        <size from="1153" to="1153" total="1153" count="1"/>
+							        <size from="1841" to="1841" total="1841" count="1"/>
+							        <size from="2097" to="2097" total="2097" count="1"/>
+							        <size from="2241" to="2241" total="2241" count="1"/>
+							        <size from="2497" to="2497" total="2497" count="1"/>
+							        <size from="3457" to="3457" total="3457" count="1"/>
+							        <size from="3825" to="3825" total="3825" count="1"/>
+							        <size from="4369" to="4369" total="4369" count="1"/>
+							        <size from="9329" to="9329" total="9329" count="1"/>
+							        <size from="11361" to="11361" total="11361" count="1"/>
+							        <size from="12705" to="12705" total="12705" count="1"/>
+  <unsorted from="1585" to="22545" total="50871" count="7"/>
+</sizes>
+<total type="fast" count="10" size="544"/>
+<total type="rest" count="46" size="115230"/>
+<system type="current" size="270336"/>
+<system type="max" size="270336"/>
+<aspace type="total" size="270336"/>
+<aspace type="mprotect" size="270336"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="9">
+<sizes>
+  <unsorted from="1761" to="19505" total="21266" count="2"/>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="2" size="21266"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="10">
+<sizes>
+							        <size from="17" to="32" total="320" count="10"/>
+							        <size from="33" to="48" total="768" count="16"/>
+							        <size from="49" to="64" total="960" count="15"/>
+							        <size from="65" to="80" total="160" count="2"/>
+							        <size from="33" to="33" total="33" count="1"/>
+							        <size from="177" to="177" total="177" count="1"/>
+							        <size from="55457" to="55457" total="55457" count="1"/>
+  <unsorted from="49" to="238369" total="932882" count="34"/>
+</sizes>
+<total type="fast" count="43" size="2208"/>
+<total type="rest" count="37" size="988549"/>
+<system type="current" size="1708032"/>
+<system type="max" size="1708032"/>
+<aspace type="total" size="1708032"/>
+<aspace type="mprotect" size="1708032"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="11">
+<sizes>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="12">
+<sizes>
+							        <size from="49" to="49" total="49" count="1"/>
+							        <size from="81" to="81" total="81" count="1"/>
+							        <size from="97" to="97" total="97" count="1"/>
+							        <size from="113" to="113" total="226" count="2"/>
+							        <size from="129" to="129" total="387" count="3"/>
+							        <size from="161" to="161" total="322" count="2"/>
+							        <size from="177" to="177" total="177" count="1"/>
+							        <size from="209" to="209" total="209" count="1"/>
+							        <size from="257" to="257" total="257" count="1"/>
+							        <size from="1073" to="1073" total="1073" count="1"/>
+							        <size from="30353" to="30353" total="30353" count="1"/>
+  <unsorted from="3633" to="12337" total="15970" count="2"/>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="17" size="49201"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="13">
+<sizes>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="14">
+<sizes>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="15">
+<sizes>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="16">
+<sizes>
+							        <size from="33" to="48" total="48" count="1"/>
+  <unsorted from="1393" to="16145" total="23316" count="4"/>
+</sizes>
+<total type="fast" count="1" size="48"/>
+<total type="rest" count="4" size="23316"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="17">
+<sizes>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="135168"/>
+<system type="max" size="135168"/>
+<aspace type="total" size="135168"/>
+<aspace type="mprotect" size="135168"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="18">
+<sizes>
+</sizes>
+<total type="fast" count="0" size="0"/>
+<total type="rest" count="0" size="0"/>
+<system type="current" size="3633152"/>
+<system type="max" size="3633152"/>
+<aspace type="total" size="3633152"/>
+<aspace type="mprotect" size="3633152"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<heap nr="19">
+<sizes>
+							        <size from="33" to="48" total="1392" count="29"/>
+							        <size from="49" to="64" total="2048" count="32"/>
+							        <size from="65" to="80" total="5280" count="66"/>
+							        <size from="97" to="112" total="896" count="8"/>
+							        <size from="113" to="128" total="2944" count="23"/>
+							        <size from="33" to="33" total="99" count="3"/>
+							        <size from="49" to="49" total="1568" count="32"/>
+							        <size from="65" to="65" total="195" count="3"/>
+							        <size from="81" to="81" total="81" count="1"/>
+							        <size from="97" to="97" total="291" count="3"/>
+							        <size from="145" to="145" total="290" count="2"/>
+							        <size from="161" to="161" total="483" count="3"/>
+							        <size from="193" to="193" total="193" count="1"/>
+							        <size from="209" to="209" total="1045" count="5"/>
+							        <size from="225" to="225" total="225" count="1"/>
+							        <size from="273" to="273" total="1092" count="4"/>
+							        <size from="305" to="305" total="610" count="2"/>
+							        <size from="321" to="321" total="963" count="3"/>
+							        <size from="3425" to="3425" total="3425" count="1"/>
+							        <size from="4321" to="4337" total="12979" count="3"/>
+							        <size from="8209" to="8209" total="16418" count="2"/>
+							        <size from="22401" to="23633" total="92212" count="4"/>
+							        <size from="24913" to="27969" total="78147" count="3"/>
+							        <size from="29713" to="29713" total="29713" count="1"/>
+							        <size from="34689" to="35025" total="69714" count="2"/>
+							        <size from="38369" to="38369" total="38369" count="1"/>
+							        <size from="92673" to="92673" total="92673" count="1"/>
+  <unsorted from="33" to="92321" total="3160517" count="2437"/>
+</sizes>
+<total type="fast" count="158" size="12560"/>
+<total type="rest" count="2518" size="3601302"/>
+<system type="current" size="12767232"/>
+<system type="max" size="12767232"/>
+<aspace type="total" size="12767232"/>
+<aspace type="mprotect" size="12767232"/>
+<aspace type="subheaps" size="1"/>
+</heap>
+<total type="fast" count="506" size="35008"/>
+<total type="rest" count="3217" size="9231889"/>
+<total type="mmap" count="711" size="347131904"/>
+<system type="current" size="59711488"/>
+<system type="max" size="59711488"/>
+<aspace type="total" size="59711488"/>
+<aspace type="mprotect" size="59711488"/>
+</malloc>
+
+
+
+Events status:
+LLA = Last Locked At  LUA = Last Unlocked At
+WOC = Waiting On Condition  DL = Data Locked
+
+Event scheduler status:
+State      : RUNNING
+Thread id  : 4
+LLA        : is_running:651
+LUA        : is_running:653
+WOC        : NO
+Workers    : 0
+Executed   : 0
+Data locked: NO
+
+Event queue status:
+Element count   : 0
+Data locked     : NO
+Attempting lock : NO
+LLA             : get_top_for_execution_if_time:547
+LUA             : get_top_for_execution_if_time:566
+WOC             : YES
+Next activation : never
+2018-08-15T03:26:29.071899Z 0 [System] [MY-010910] [Server] /usr/local/mysql/bin/mysqld: Shutdown complete (mysqld 8.0.11)  MySQL Community Server - GPL.

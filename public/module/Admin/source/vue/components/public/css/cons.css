@@ -1,0 +1,89 @@
+.v-cons {
+
+}
+
+.v-cons > * {
+    padding: 0 20px;
+}
+
+/**
+ * **************
+ * 当前位置
+ * **************
+ */
+.v-cons > .pos {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    position: relative;
+}
+
+.v-cons > .pos:after {
+    display:block;
+    content:'';
+    clear:both;
+}
+
+.v-cons > .pos > * {
+    box-sizing:border-box;
+}
+
+.v-cons > .pos .left {
+    float:left;
+}
+
+.v-cons > .pos .left .image {
+    width: 24px;
+    margin-right: 8px;
+}
+
+.v-cons > .pos .right {
+    float:right;
+}
+
+.v-cons > .pos .right .sec {
+    color: #515a6e;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+
+.v-cons > .pos .right .sec .sep {
+    color: #dcdee2;
+    margin: 0 8px;
+}
+
+.v-cons > .pos .right .sec:hover {
+    color: #57a3f3;
+}
+
+.v-cons > .pos .right .sec:nth-last-of-type(1) .sep {
+    display: none;
+}
+
+.v-cons > .pos .right .cur {
+    font-weight: bold;
+    color: #515a6e !important;
+}
+
+.v-cons > .scroll {
+    background-color: #f8f8f9;
+    border-bottom: 2px solid #f10214;
+    z-index: 10;
+}
+
+
+
+/**
+ * ************
+ * 内容设置
+ * ************
+ */
+.v-cons .c-cons {
+    background-color: white;
+    padding: 20px;
+    margin: 0 20px;
+}

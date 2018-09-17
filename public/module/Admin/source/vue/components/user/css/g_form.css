@@ -1,0 +1,77 @@
+.form {
+
+}
+
+.form .line {
+    margin-bottom:12px;
+}
+
+.form .line .tip {
+    color:red;
+    display:none;
+}
+
+.form .line .input {
+
+}
+
+.form .line .input .form-text {
+    width:100%;
+    height:42px;
+    text-indent:18px;
+    border-radius:100px;
+    background-color:#eee;
+}
+
+.form .line .input .form-text:focus {
+    background-color:#fff;
+}
+
+.form .line .input .form-text::placeholder {
+
+}
+
+.form .error .tip {
+    margin-top:3px;
+    display:block;
+}
+
+.form .center {
+    text-align:center;
+}
+
+.form .error .input .form-text {
+    border-color:red;
+}
+
+.form .error .input .form-text:focus {
+    box-shadow:0px 0px 5px 0px red;
+}
+
+/**
+ * *************
+ * 验证码
+ * *************
+ */
+.form .verify-code {
+
+}
+
+.form .verify-code .input {
+    position:relative;
+}
+
+.form .verify-code .input .form-text {
+    padding-right:152px;
+}
+
+.form .verify-code .input .image {
+    position:absolute;
+    right:20px;
+    top:50%;
+    transform:translateY(-50%);
+    -webkit-transform:translateY(-50%);
+    -moz-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    -o-transform:translateY(-50%);
+}

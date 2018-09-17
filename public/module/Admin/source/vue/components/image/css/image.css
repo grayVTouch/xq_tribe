@@ -1,0 +1,94 @@
+/**
+ *
+ */
+.shell {
+
+}
+
+.shell .form {
+
+}
+
+.shell .form > * {
+    margin-bottom: 20px;
+}
+
+.shell .form > *:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+.shell .form .items .item {
+
+}
+
+.shell .form .items .item > * {
+    margin-bottom: 20px;
+}
+
+.shell .form .items .item > *:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+.shell .form .items .item > * > * {
+    margin-bottom: 20px;
+}
+
+.shell .form .items .item > * > *:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+/**
+ * *****************
+ * 操作
+ * *****************
+ */
+.operation {
+
+}
+
+.operation .functions {
+    padding:5px;
+    border:1px solid #ccc;
+}
+
+.operation .functions:after {
+    display:block;
+    content:'';
+    clear:both;
+}
+
+.operation .functions .left {
+    float:left;
+}
+
+.operation .functions .right {
+    float:right;
+}
+
+/**
+ * ************
+ * 标签容器
+ * ************
+ */
+.tag-container {
+
+}
+
+.tag-container .line .title {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 12px;
+}
+
+.tag-container .line {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 12px;
+}
+
+.tag-container .line:nth-last-of-type(1) {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+
+

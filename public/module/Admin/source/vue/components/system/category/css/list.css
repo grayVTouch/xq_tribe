@@ -1,0 +1,49 @@
+.c-cons > * {
+    margin-bottom:12px;
+}
+
+.c-cons > *:nth-last-of-type(1) {
+    margin-bottom:0px;
+}
+
+/**
+ * *****************
+ * 操作
+ * *****************
+ */
+.operation {
+
+}
+
+.operation .functions {
+    padding:5px;
+    border:1px solid #ccc;
+}
+
+.operation .functions:after {
+    display:block;
+    content:'';
+    clear:both;
+}
+
+.operation .functions .left {
+    float:left;
+}
+
+.operation .functions .right {
+    float:right;
+}
+
+/* 结果列表 */
+.res .list {
+
+}
+
+.res .list .component-title {
+
+}
+
+.res .list .tree {
+    padding-bottom: 20px;
+    border: 1px solid #ccc;
+}

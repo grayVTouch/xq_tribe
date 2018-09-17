@@ -1,0 +1,137 @@
+.line {
+    position: relative
+}
+
+.line > .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0.8rem;
+    height: 100%;
+}
+
+.line > .left .image-shell {
+    width: 0.44rem;
+    height: 0.44rem;
+    border-radius: 0.44rem;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.line > .left .image {
+    width: 100%;
+    min-height: 100%;
+    vertical-align: top;
+}
+
+.line > .right {
+    margin-left: 0.8rem;
+    padding-right: 0.24rem;
+}
+
+.line > .right > * {
+
+}
+
+.line > .right > *:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+.line > .right .user {
+    margin-bottom: 0.24rem;
+}
+
+.line > .right .user > * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.line > .right .user .c-left {
+    float: left;
+    color: #555;
+    font-size: 0.24rem;
+    font-weight: bold;
+}
+
+.line > .right .user .c-right {
+    float: right;
+}
+
+.line > .right .user .c-right > * {
+    float: left;
+    margin-right: 0.24rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.line > .right .user .c-right > *:nth-last-of-type(1) {
+    margin-right: 0;
+}
+
+.line > .right .user .c-right .function {
+    font-size: 0.24rem;
+    color: #999;
+}
+
+.line > .right .user .c-right .function .image {
+    width: 0.28rem;
+    height: 0.28rem;
+}
+
+.line > .right .text {
+    font-size: 0.28rem;
+    color: #333;
+    margin-bottom: 0.1rem;
+}
+
+.line > .right .time {
+    font-size: 0.24rem;
+    color: #999;
+}
+
+.line > .right .reply {
+    background-color: #f5f5f5;
+    padding: 0.24rem;
+}
+
+.line > .right .reply .r-line {
+    margin-bottom: 0.2rem;
+}
+
+.line > .right .reply .r-line:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+.line > .right .reply .r-line .c-r-line {
+    margin-bottom: 0.12rem;
+    font-size: 0.28rem;
+}
+
+.line > .right .reply .r-line .c-r-line:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+.line > .right .reply .r-line .c-r-line .reply-user {
+    color: #999;
+}
+
+.line > .right .reply .r-line .name {
+    color: #555;
+    font-size: 0.24rem;
+    font-weight: bold;
+}
+
+.line > .right .reply .r-line .text {
+    font-size: 0.28rem;
+    color: #333;
+}
+
+.line > .right .view {
+    font-size: 0.26rem;
+    color: rgb(130,130,130);
+}

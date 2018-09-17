@@ -1,0 +1,104 @@
+.line {
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.line .function {
+    padding: 12px;
+    border-bottom: 1px solid #7b7b7b;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+
+.line .function:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.line .function:hover {
+    background-color: #e8e8e8;
+}
+
+.line .function .left .form-label {
+    vertical-align: top;
+}
+
+.line .function .left:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.line .function .left > * {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+.line .function .left > *:nth-last-of-type(1) {
+    margin-right: 0;
+}
+
+.line .function .left .c-right {
+    font-size: 12px;
+    color: #999;
+}
+
+.line .function .left .c-right > span:after {
+    display: inline;
+    content: '|';
+    padding: 0 8px;
+    font-weight: bold;
+}
+
+.line .function .left .c-right > span:nth-last-of-type(1)::after {
+    display: none;
+}
+
+.line .function .left .control {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 40px;
+    margin-left: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+
+.line .function .left .control:hover {
+    color: #fff;
+    background-color: #cb217a;
+}
+
+.line .function > * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+.line .function .left {
+    float: left;
+}
+
+.line .function .right {
+    float: right;
+}

@@ -1,0 +1,266 @@
+/*
+ * ***************
+ * 图片部分
+ * ***************
+ */
+.part-for-image {
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.part-for-image > * {
+    margin-bottom: 0.24rem;
+}
+
+.part-for-image > *:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+/*
+ * **************
+ * 图片项目
+ * **************
+ */
+.images {
+    box-shadow: 0 0 0.24rem 0 #ccc;
+}
+
+.images ._image {
+    /*margin: 0.24rem 0;*/
+    margin-bottom: 0.24rem;
+    padding: 0.24rem;
+    background-color: #fff;
+}
+
+.images ._image:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+.images ._image > * {
+    margin-bottom: 0.24rem;
+}
+
+.images ._image > *:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+.images ._image .user {
+    font-size: 0.24rem;
+    color: #555;
+}
+
+.images ._image .user > * {
+    box-sizing: border-box;
+    height: 0.8rem;
+    line-height: 0.8rem;
+}
+
+.images ._image .user > .left {
+    float: left;
+}
+
+.images ._image .user > .left > * {
+    float: left;
+    height: 100%;
+    margin-right: 0.12rem;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.images ._image .user > .left > *:nth-last-of-type(1) {
+    margin-right: 0;
+}
+
+.images ._image .user > .left .avatar {
+    width: 0.8rem;
+}
+
+.images ._image .user > .left .avatar .image-shell {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0.8rem;
+    height: 100%;
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
+
+.images ._image .user > .left .avatar .image-shell .image {
+    width: 100%;
+    min-height: 100%;
+    vertical-align: top;
+}
+
+.images ._image .user > .right {
+    float: right;
+}
+
+.images ._image .info {
+
+}
+
+.images ._image .info > * {
+    margin-bottom: 0.16rem;
+}
+
+.images ._image .info > *:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+.images ._image .info .title {
+    font-size: 0.28rem;
+    color: #555;
+}
+
+.images ._image .info .desc {
+    font-size: 0.24rem;
+    color: #999;
+}
+
+.images ._image {
+
+}
+
+.images ._image > * {
+    margin-bottom: 0.24rem;
+}
+
+.images ._image > *:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+.images ._image .preview {
+    height: 4rem;
+    overflow: hidden;
+}
+
+.images ._image .preview .image {
+    border-radius: 0.06rem;
+}
+
+/* 单张图片预览 */
+.images ._image > .one {
+
+}
+
+.images ._image > .one .image {
+    width: 100%;
+    min-height: 100%;
+    vertical-align: top;
+}
+
+/* 两张图片预览 */
+.images ._image > .two {
+
+}
+
+.images ._image > .two > * {
+    float: left;
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.images ._image > .two > .left {
+    padding-right: 2px;
+}
+
+.images ._image > .two > .right {
+    padding-left: 2px;
+}
+
+.images ._image > .two .image {
+    width: 100%;
+    min-height: 100%;
+    vertical-align: top;
+}
+
+/* 三张图片预览 */
+.images ._image > .three {
+    position: relative;
+}
+
+.images ._image > .three > * {
+    float: left;
+    height: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.images ._image > .three > .left {
+    width: 70%;
+    padding-right: 2px;
+}
+
+.images ._image > .three > .left .image {
+    width: 100%;
+    min-height: 100%;
+    vertical-align: top;
+}
+
+.images ._image > .three > .right {
+    width: 30%;
+    padding-left: 2px;
+}
+
+.images ._image > .three > .right > * {
+    height: 50%;
+    overflow: hidden;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.images ._image > .three > .right > .top {
+    padding-bottom: 2px;
+}
+
+.images ._image > .three > .right > .btm {
+    padding-top: 2px;
+}
+
+.images ._image > .three > .right .image {
+    width: 100%;
+    min-height: 100%;
+}
+
+.images ._image > .three .count {
+    float: none;
+    height: auto;
+    font-size: 0.24rem;
+    color: #fff;
+    padding: 0 0.12rem;
+    position: absolute;
+    right: 0.16rem;
+    bottom: 0.16rem;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.images ._image > .three .count .image {
+    width: 0.24rem;
+    height: 0.24rem;
+    margin-right: 0.18rem;
+}
+
+
+/* 功能区域 */
+.images ._image .functions {
+    border-top: 1px solid #f5f5f5;
+}
+
+.images ._image .functions > * {
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 33.333%;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #555;
+}
+
+.images ._image .functions > * .image {
+    width: 0.42rem;
+    height: 0.42rem;
+}

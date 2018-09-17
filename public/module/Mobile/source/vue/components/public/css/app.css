@@ -1,0 +1,37 @@
+body {
+    font-size: 16px;
+}
+
+.gray {
+    background-color: #f5f5f5;
+}
+
+.empty {
+    text-align: center;
+    padding: 0.24rem;
+    position: relative;
+    font-size: 0.24rem;
+    color: #999;
+}
+
+.empty:before , .empty:after {
+    z-index: 1;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 0.7rem;
+    height: 1px;
+    background-color: #e2e2e2;
+}
+
+.empty::before {
+    margin-right: 0.24rem;
+}
+
+.empty::after {
+    margin-left: 0.24rem;
+}
+
+.empty {
+
+}

@@ -1,0 +1,54 @@
+/**
+ * ******************
+ * 幻灯片
+ * ******************
+ */
+.container {
+    background-color: white;
+}
+
+.container > .top {
+    margin-bottom: 0.6rem;
+}
+
+.container > .top > .btns {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.3rem;
+}
+
+.container > .top > .btns .left {
+
+}
+
+.container > .top > .btns .left:after {
+
+}
+
+.container > .top > .btns .left > * {
+    float: left;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.container > .top > .btns .left .link {
+    padding: 0 0.1rem;
+}
+
+.container > .top > .btns .left .link .image {
+    width: 0.4rem;
+    height: 0.4rem;
+}
+
+.container > .top .slider {
+    height: 4rem;
+    overflow: hidden;
+}
+

@@ -1,0 +1,346 @@
+.comments {
+    padding: 0.24rem;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+/*
+ * ******************
+ * 标题
+ * ******************
+ */
+.comments > .title {
+    border-bottom: 1px solid #f5f5f5;
+    position: relative;
+}
+
+.comments > .title > * {
+    height: 0.6rem;
+    line-height: 0.6rem;
+}
+
+.comments > .title .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.comments > .title .mid {
+    color: #555;
+    font-size: 0.28rem;
+    text-align: center;
+}
+
+.comments > .title .right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.comments > .main {
+    padding: 0.24rem 0;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.comments > .main > .comment {
+
+}
+
+.comments > .main .split-line {
+    position: relative;
+    padding: 0.24rem 0;
+    text-align: center;
+}
+
+.comments > .main .split-line .text {
+    background-color: #fff;
+    font-size: 0.26rem;
+    color: #555;
+    padding: 0 0.24rem;
+    position: relative;
+    z-index: 2;
+}
+
+.comments > .main .split-line:after {
+    display: block;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background-color: #e5e5e5;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.comments > .main > .reply > .line {
+    margin-bottom: 0.4rem;
+}
+
+.comments > .main > .reply > .line:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+/*
+ * ********************
+ * 固定底部
+ * ********************
+ */
+.comments .fix-btm {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1.02rem;
+    padding: 0.16rem 0.24rem;
+    background-color: #fff;
+    border-top: 1px solid #e5e5e5;
+}
+
+.comments .fix-btm .input {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    line-height: 0.7rem;
+    font-size: 0.26rem;
+    border-radius: 0.4rem;
+    padding-left: 0.4rem;
+    color: #999;
+    background-color: #f5f5f5;
+}
+
+/*
+ * ************
+ * 主体内容
+ * ************
+ */
+.line {
+    position: relative;
+}
+
+.line > .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0.8rem;
+    height: 100%;
+    text-align: center;
+}
+
+.line > .left .image {
+    width: 0.44rem;
+    height: 0.44rem;
+}
+
+.line > .right {
+    margin-left: 0.8rem;
+    padding-right: 0.24rem;
+}
+
+.line > .right > * {
+
+}
+
+.line > .right > *:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+.line > .right .user {
+    margin-bottom: 0.24rem;
+}
+
+.line > .right .user > * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.line > .right .user .c-left {
+    float: left;
+    color: #555;
+    font-size: 0.24rem;
+    font-weight: bold;
+}
+
+.line > .right .user .c-right {
+    float: right;
+}
+
+.line > .right .user .c-right > * {
+    float: left;
+    margin-right: 0.24rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.line > .right .user .c-right > *:nth-last-of-type(1) {
+    margin-right: 0;
+}
+
+.line > .right .user .c-right .function {
+    font-size: 0.24rem;
+    color: #999;
+}
+
+.line > .right .user .c-right .function .image {
+    width: 0.28rem;
+    height: 0.28rem;
+}
+
+.line > .right .text {
+    font-size: 0.28rem;
+    color: #333;
+    margin-bottom: 0.1rem;
+}
+
+.line > .right .time {
+    font-size: 0.24rem;
+    color: #999;
+    margin-bottom: 0.1rem;
+}
+
+.line > .right .subject {
+    background-color: #f5f5f5;
+    padding: 0.16rem;
+}
+
+.line > .right .subject > .in {
+    position: relative;
+    height: 100%;
+}
+
+.line > .right .subject > .in > * {
+    height: 1rem;
+}
+
+.line > .right .subject > .in .c-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1rem;
+    overflow: hidden;
+}
+
+.line > .right .subject > .in .c-left .image {
+    width: 100%;
+    min-height: 100%;
+    vertical-align: top;
+}
+
+.line > .right .subject > .in .c-right {
+    margin-left: 1rem;
+    padding-left: 0.24rem;
+    font-size: 0.28rem;
+    color: #555;
+}
+
+.line > .right .c-line ._reply {
+    color: #999;
+}
+
+/*** 回复评论数 ***/
+.reply-comment {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.reply-comment .back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.3;
+    z-index: 11;
+}
+
+.reply-comment .main {
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 12;
+    padding: 0.16rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.reply-comment .main > * {
+    margin-bottom: 0.12rem;
+}
+
+.reply-comment .main > *:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+.reply-comment .main .title {
+    font-size: 0.24rem;
+    color: #999;
+}
+
+.reply-comment .main .title > * {
+    height: 0.4rem;
+    line-height: 0.4rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.reply-comment .main .title .left {
+    float: left;
+}
+
+.reply-comment .main .title .right {
+    float: right;
+}
+
+.reply-comment .main .input {
+    height: 1.8rem;
+}
+
+.reply-comment .main .input .form-textarea {
+    width: 100%;
+    height: 100%;
+    font-size: 0.26rem;
+    border-radius: 0.06rem;
+    padding: 0.2rem 0.1rem;
+    color: rgb(130 , 130 , 130);
+    background-color: #f3f3f3;
+    border: none;
+}
+
+.reply-comment .main .btns {
+
+}
+
+.reply-comment .main .btns > * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.reply-comment .main .btns .left {
+    float: left;
+}
+
+.reply-comment .main .btns .right {
+    float: right;
+}

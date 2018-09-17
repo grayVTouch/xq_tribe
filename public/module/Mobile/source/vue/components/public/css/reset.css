@@ -1,0 +1,72 @@
+
+/**
+ * *************
+ * 加载动画重写
+ * *************
+ */
+.Load-Top , .Load-Btm {
+    padding: 0.24rem 0;
+    font-size: 0.24rem;
+}
+
+.Load-Top .image , .Load-Btm .image {
+    width: 0.48rem;
+    height: 0.48rem;
+    margin-right: 0.08rem;
+}
+
+/*
+ * **********************
+ * 标签
+ * **********************
+ */
+/**
+ * ************
+ * 标签处理
+ * ************
+ */
+.tag {
+    display: inline-block;
+    padding: 0.08rem 0.16rem;
+    position: relative;
+    background-color: #f0f4fa;
+    color: #7490b9;
+    cursor: pointer;
+    font-size: 0.24rem;
+    margin-bottom: 0.12rem;
+    margin-right: 0.12rem;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+
+.hot-tag {
+    display: inline-block;
+    padding: 4px 8px;
+    border: 1px solid #2d8cf0;
+    color: #2d8cf0;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+
+.tag-input {
+    display: inline-block;
+    border: 1px dashed #96c5f7 !important;
+    border-radius: 3px;
+    min-width: 60px;
+    padding: 2px 6px;
+    outline: none;
+}
+
+.tag-input .in .input {
+    width: 100%;
+}

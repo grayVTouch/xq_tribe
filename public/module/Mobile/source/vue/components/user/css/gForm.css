@@ -1,0 +1,113 @@
+/**
+ * ***************
+ * 头部
+ * ***************
+ */
+.form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form .center {
+    text-align: center;
+}
+
+.form .line {
+    margin-bottom: 0.24rem;
+}
+
+.form .line:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+.form .line > * {
+    margin-top: 0.2rem;
+}
+
+.form .line > *:nth-of-type(1) {
+    margin-top: 0;
+}
+
+.form .line .input {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.24rem;
+}
+
+.form .line .input > * {
+    height: 0.8rem;
+}
+
+.form .line .input .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+}
+
+.form .line .input .left .image {
+    width: 0.48rem;
+    height: 0.48rem;
+}
+
+.form .line .input .right {
+    margin-left: 0.8rem;
+}
+
+.form .line .input .right .form-text {
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.form .line .tip {
+    font-size: 0.24rem;
+    display: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.form .line .login {
+    padding: 0.2rem 1.6rem;
+    border-radius: 1rem;
+    color: #fff;
+    font-size: 0.32rem;
+    background-image: linear-gradient(0deg, #ff2d55 0%, #ff2676 100%) , linear-gradient(#ab47bc, #ab47bc);
+}
+
+.form .line .update {
+    color: #999;
+    font-size: 0.24rem;
+}
+
+.form .line .register {
+    padding: 0.2rem 1.6rem;
+    border-radius: 1rem;
+    font-size: 0.32rem;
+    border: solid 1px #263238;
+}
+
+/*错误*/
+.form .error {
+
+}
+
+.form .error .input {
+    border-bottom-color: red;
+}
+
+/*.form .error .input .form-text {*/
+    /*color: red;*/
+/*}*/
+
+/*.form .error .input .form-text::-webkit-input-placeholder {*/
+    /*color: red;*/
+/*}*/
+
+.form .error .tip {
+    display: block;
+    color: red;
+}

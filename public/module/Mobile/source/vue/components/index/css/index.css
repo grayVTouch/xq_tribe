@@ -1,0 +1,40 @@
+/*
+ * ****************
+ * 固定中间
+ * ****************
+ */
+._fix-mid_ {
+    position: relative;
+    height: 100%;
+}
+
+/* 固定中间：内容 */
+._fix-mid_ .content {
+    padding-top: 0.9rem;
+    height: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+/* function-nav 插件样式自定义 */
+.function-nav {
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    z-index: 1;
+}
+
+.function-nav .functions {
+    height: 100%;
+}
+
+.function-nav .functions .function {
+    font-size: 0.28rem;
+    padding:0 0.4rem;
+}
+
+

@@ -1,0 +1,53 @@
+/**
+ * *********************
+ * 路由切换动效
+ * 前进 _slide-right
+ * 后退 _slide-left
+ * *********************
+ */
+._slide-left-enter {
+    transform:translateX(100%);
+    opacity:0;
+}
+
+._slide-left-enter-to {
+    transform:translateX(0%);
+    opacity:1;
+}
+
+._slide-left-leave-to {
+    transform: translateX(-100%);
+    opacity:0;
+}
+
+._slide-right-enter {
+    transform:translateX(-100%);
+    opacity:0;
+}
+
+._slide-right-enter-to {
+    transform:translateX(0%);
+    opacity:1;
+}
+
+._slide-right-leave-to {
+    transform: translateX(100%);
+    opacity:0;
+}
+
+/**
+ * **********************
+ * 路由切换：淡入淡出
+ * **********************
+ */
+._ease-in-out-enter {
+    opacity:0;
+}
+
+._ease-in-out-enter-to {
+    opacity:1;
+}
+
+._ease-in-out-leave-to {
+    opacity:0;
+}
