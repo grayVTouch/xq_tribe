@@ -1,1 +1,0 @@
-php version at least 5.3.3

@@ -10,7 +10,7 @@ namespace App\Http\Middleware;
 
 use Closure;
 use App\Model\Token;
-use App\Model\AdminUsers;
+use App\Model\AdminUser;
 
 class AdminUserAuth
 {
@@ -68,8 +68,8 @@ class AdminUserAuth
         }
 
         // 设置用户数据
-        $q->user = AdminUsers::where('id' , $_token->user_id)->first();
-        AdminUsers::single($q->user);
+        $q->user = AdminUser::where('id' , $_token->user_id)->first();
+        AdminUser::single($q->user);
 
         return $this->response(true);
     }

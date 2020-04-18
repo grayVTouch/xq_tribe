@@ -82,8 +82,7 @@ class File extends Controller
         if (!$res) {
             return error('file.error');
         }
-
-        $res['path'] = str_replace(public_path('/') , '' , $res['path']);
+        $res['path'] = str_replace(format_path(public_path()) , '' , $res['path']);
         $res['url'] = gen_url($res['path']);
         return success($res);
     }

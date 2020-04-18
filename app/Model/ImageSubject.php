@@ -28,8 +28,8 @@ class ImageSubject extends Model
         switch ($user_type)
         {
             case 'admin':
-                $data = AdminUsers::where('id' , $user_id)->first();
-                AdminUsers::single($data);
+                $data = AdminUser::where('id' , $user_id)->first();
+                AdminUser::single($data);
                 return $data;
             case 'user':
                 $data = User::where('id' , $user_id)->first();
